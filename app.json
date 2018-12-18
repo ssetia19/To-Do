@@ -1,0 +1,6 @@
+{
+	"name": "Node.js getting started",
+	"description": "A To-do list using Express",
+	"repository": "web: node index.js"
+
+}
