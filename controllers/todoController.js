@@ -3,6 +3,7 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
 //connect to database
+//here we are connecting to mongoDB which is a no-sql database
 mongoose.connect('mongodb://test:test123@ds231242.mlab.com:31242/todo_node',{ useNewUrlParser: true });
 
 // create a schema - this  is like a blueprint
